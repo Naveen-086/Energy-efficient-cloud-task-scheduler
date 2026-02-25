@@ -35,3 +35,10 @@ __pycache__/
 
 # SQLite DB
 *.sqlite3
+
+# Power BI files
+*.pbix
+cloud scheduling.pbix/
+
+# package-lock (large)
+package-lock.json
