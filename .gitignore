@@ -21,3 +21,17 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Large ML model files (too large for GitHub)
+*.pkl
+*.h5
+backend/energy_scheduler/ml_models/
+backend/notebooks/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite DB
+*.sqlite3
