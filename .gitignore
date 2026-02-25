@@ -25,7 +25,8 @@ dist-ssr
 # Large ML model files (too large for GitHub)
 *.pkl
 *.h5
-backend/energy_scheduler/ml_models/
+backend/energy_scheduler/ml_models/*.pkl
+backend/energy_scheduler/ml_models/*.h5
 backend/notebooks/
 
 # Python cache
